@@ -1,9 +1,9 @@
 package ngen
 
 import (
+	"log"
 	"math"
 	"math/rand"
-	"os"
 	"time"
 
 	"github.com/iancoleman/strcase"
@@ -19,19 +19,19 @@ func init() {
 	var err error
 	adjectives, err = readLines("./words/adjectives.txt")
 	if err != nil {
-		os.Exit(1)
+		log.Fatal(err)
 	}
 	adverbs, err = readLines("./words/adverbs.txt")
 	if err != nil {
-		os.Exit(1)
+		log.Fatal(err)
 	}
 	nouns, err = readLines("./words/nouns.txt")
 	if err != nil {
-		os.Exit(1)
+		log.Fatal(err)
 	}
 	verbs, err = readLines("./words/verbs.txt")
 	if err != nil {
-		os.Exit(1)
+		log.Fatal(err)
 	}
 }
 

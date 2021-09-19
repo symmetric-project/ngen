@@ -5,4 +5,4 @@
 ![size](https://img.shields.io/github/repo-size/symmetric-project/ngen)
 
 # ngen
-Random name generator with a total of 3000000 unique combinations.
+Random name generator with a total of 3M unique combinations.

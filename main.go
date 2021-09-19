@@ -13,7 +13,7 @@ var verbs []string
 
 func init() {
 	var err error
-	adjectives, err = readLines("./ngen/words/adjectives.txt")
+	adjectives, err = readLines("./words/adjectives.txt")
 	if err != nil {
 		os.Exit(1)
 	}
